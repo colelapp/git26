@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="flexbox-container ">
+        <div class="flexbox-item flexbox-item-1">dee</div>
+        <div class="flexbox-item flexbox-item-2">dum</div>
+        <div class="flexbox-item flexbox-item-3">doo</div>
+    </div>
+
+<style>
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox-container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    background-color: cyan;
+    align-items: flex-end;
+}
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: orange;
+
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+    flex-grow: 1;
+}
+
+.flexbox-item-2{
+    min-height: 200px;
+    flex-grow: 2;
+}
+
+.flexbox-item-3{
+    min-height: 300px;
+    flex-grow: 1;
+}
+
+
+</style>
+</body>
+
+</html>

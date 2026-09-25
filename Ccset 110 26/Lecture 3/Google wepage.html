@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google</title>
+        <style>
+            body{
+                background-color: #121212;
+                color: aliceblue;
+                font-size: 20px;
+                margin: 0px;
+                padding: 0px;
+            }
+            header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            header div img{
+                width: 30px;
+            }
+            header div{
+                display: flex;
+                align-items: center;
+            }
+
+            #search{
+                width: 75%;
+                margin: 20px auto;
+                margin-top: 150px;
+            }
+            
+            h1{
+                text-align: center;
+                font-family: Sans Flex; 
+                font-size: 110px;
+            }
+            
+            #search div{
+                padding: 5px 10px;
+                max-width: 500px;
+                border-radius: 10px;
+            }
+            
+            #bar{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 5px auto;
+                align-items: center;
+                border: solid 1px lightgrey;
+            }
+
+            #bar div, #taskbar p{
+                border: solid 1px lightgrey;
+            }
+
+            p{
+                padding: 0px;
+                margin: 3px 10px;
+            }
+
+            #taskbar p, #taskbar div p{
+                margin: 2px 5px;
+                padding: 0px;
+            }
+
+
+            #taskbar{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin: 10px auto;
+                align-items: center;
+            }
+
+            #taskbar p{
+                padding: 5px 10px;
+                border-radius: 10px;
+                margin: 10px;
+            }
+            footer, footer div{
+                display: flex;
+                flex-direction: row;
+                
+            }
+
+            footer{
+                margin-top: 310px;
+                justify-content: space-between;
+                background-color: #181818;
+                width: 100%;
+                height: 80px;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>   
+                <p>About</p>
+                <p>Store</p>
+            </div>
+            <div>
+                <div>
+                    <p>Gmail</p>
+                    <p>Images</p>
+                    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKTNSEy8OFsZ9EY-JruMTtPGXLgSnZaddIdctx9R7vKA&s=10" alt="Waffle Icon"></p>
+                    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLJYx_e9V8IkRRoYWjnEhSZpgmZGmAcLPCR4KK13bHeQ&s=10" alt="Profile Icon"></p>
+                </div>
+            </div>
+        </header>
+        <div id="search">
+            <h1>Google</h1>
+            <div id="bar">
+                <p>Ask Google</p> 
+
+                <div>
+                    <p>Ai Mode</p>
+                </div>
+            </div>   
+            <div id="taskbar">
+                <p>Im Feeling Lucky</p>
+                <p>Google Search</p>
+            </div> 
+        </div>
+
+        <footer>
+            <div>
+                <p>Advertising</p>
+                <p>Business</p>
+                <p>How Search works</p>
+            </div>
+            <div>
+                <p>Build, create, and do more with AI tools from Google</p>
+            </div>
+            <div>
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>Settings</p>
+            </div>
+        </footer>
+    </body>
+</html>

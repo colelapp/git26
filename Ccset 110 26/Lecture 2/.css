@@ -1,0 +1,14 @@
+.Cset{color:red; font-size:50px;}
+#p1{ color:blue; font-size: 100px;}
+p.center{color:hotpink; font: size 150px;}
+div p{color:aquamarine;font: size 200px;}
+
+h3{
+    border:5px solid red;
+    padding: 10%;
+    margin: 5%;
+}
+
+p1{
+    border:5px solid  black;
+}
